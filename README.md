@@ -26,3 +26,5 @@ You can make it a shell executable with
 echo 'echo -n "'"$(cat image.hbi)"'"' > image.sh
 
 If you want to be greeted by the image in an SSH login, you can add the shell script to .profile in your home directory.
+
+Since this is my first project on github I've decided not to include a binary.  I'm leaving it up to the user to review the code before compiling and running the binary.  Any issues may or may not be given attention, depending on the issues brought up.  
