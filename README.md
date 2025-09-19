@@ -11,5 +11,7 @@ g++ halfbar.cpp -o halfbar
 Any images you want to convert will need to be converted to raw with
 convert image.png image.rgb
 Then you can use
-./halfbar image.rgb "<image width>" "[ R G B ]"
+
+./halfbar image.rgb width '[R G B]'
+
 Where RGB is the color you want to mask.
