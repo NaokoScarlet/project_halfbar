@@ -25,4 +25,4 @@ You can make it a shell executable with
 
 echo 'echo -n "'"$(cat image.hbi)"'"' > image.sh
 
-If you want to be greeted by the image in an SSH login, you can add the shell script in .profile in your home directory at the bottom.
+If you want to be greeted by the image in an SSH login, you can add the shell script to .profile in your home directory.
