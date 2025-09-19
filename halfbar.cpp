@@ -166,7 +166,7 @@ int main(int argc,char* argv[])
 
   if (argc < 3)
   { // Check arguments
-    std::cerr << "Usage: " << argv[0] << " <image> <width> (r g b)\n";
+    std::cerr << "Usage: " << argv[0] << " <image> <width> [r g b]\n";
     return 1;
   }
 
