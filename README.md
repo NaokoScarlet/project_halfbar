@@ -17,3 +17,10 @@ Then you can use
 ./halfbar image.rgb width '[R G B]'
 
 Where RGB is the color you want to mask.
+You can also output to a file with
+
+./halfbar image.rgb width '[R G B]' >image.hbi
+
+You can make it a shell executable with
+
+echo 'echo -n "'"$(cat image.hbi)"'"' > image.sh
