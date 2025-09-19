@@ -9,7 +9,9 @@ On Linux, you will want to install imagemagick, build-essential, and git.  git c
 g++ halfbar.cpp -o halfbar
 
 Any images you want to convert will need to be converted to raw with
+
 convert image.png image.rgb
+
 Then you can use
 
 ./halfbar image.rgb width '[R G B]'
